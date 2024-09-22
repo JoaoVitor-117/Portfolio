@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Meu Portfólio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1>Bem-vindo ao Meu Portfólio!</h1>
+        <p>Desenvolvedor Web</p>
+    </header>
+
+    <section id="sobre" class="container text-center">
+        <h2>Sobre Mim</h2>
+        <p>Me chamo João Vitor tenho 24 anos e estou estudando análise e desenvolvimento de sistema</p>
+    </section>
+
+    <section id="projetos" class="container text-center">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" data-aos="fade-up">
+                    <img src="projeto1.jpg" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 1</h5>
+                        <p class="card-text">Descrição do projeto 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" data-aos="fade-up">
+                    <img src="projeto2.jpg" class="card-img-top" alt="Projeto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 2</h5>
+                        <p class="card-text">Descrição do projeto 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" data-aos="fade-up">
+                    <img src="projeto3.jpg" class="card-img-top" alt="Projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 3</h5>
+                        <p class="card-text">Descrição do projeto 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container text-center">
+        <h2>Contato</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Seu Nome" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Seu Email" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="3" placeholder="Sua Mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="text-center">
+        <p>&copy; 2024 Meu Portfólio</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
